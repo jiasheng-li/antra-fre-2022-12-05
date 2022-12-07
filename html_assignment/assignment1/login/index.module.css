@@ -1,0 +1,55 @@
+.container{
+    margin: auto;
+}
+
+#title{
+    text-align: center
+}
+
+#name{
+    display: flex; 
+}
+
+#first-name{
+   margin-right: 10px;
+}
+
+#password{
+     display: flex; 
+}
+
+#pwd{
+    margin-right: 10px;
+}
+
+
+#bnt{
+   text-align: center;
+}
+
+#register{
+    width: 35%;
+    margin-right: 20px;
+    color: white;
+    background-color: #1E90FF	;
+}
+#sign-in{
+    width: 35%;
+    color: white;
+    background-color: #32CD32;
+}
+
+#link{
+    background-color: #1E90FF;
+    color: white;
+    padding: 4px;
+    border-radius: 10%;
+}
+
+#check-box{
+    
+    font-size: medium;
+    font-weight: bold;
+    margin-right: 20px;
+
+}

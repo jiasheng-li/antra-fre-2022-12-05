@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="/assignment1/login/index.module.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id = "title">Sign Up</h1>
+        <form action="/action_page.php">
+
+            <div class="form-group">
+                <div id = "name">
+                    <input type="text" id="first-name" class="form-control" placeholder="First name">
+                    <input type="text" id="last-name" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" class="form-control" id="iphone-num" placeholder = "Mobile No."required>
+
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" required placeholder="Email Address">
+            </div>
+
+            <div class="form-group">
+                <div id = "password">
+                    <input type="password" class="form-control" id="pwd" placeholder="Password" required>
+                    <input type="password" class="form-control"  placeholder="Confirm Password" required>
+                </div>
+            
+            </div>
+
+
+
+            <div class="checkbox">
+                <label id="check-box"><input type="checkbox" required> I Agree</label>
+                By clicking <a href="http://" id = "link">Register</a>, you agree to the 
+                <a href="http://" >Terms and Conditions</a> setout by this site, including out Cookie Use.
+            </div>
+
+            <div id="bnt">
+                <button type="submit" class="btn btn-default" id="register">Register</button>
+                <button type="submit" class="btn btn-default" id = "sign-in">Sign In</button>
+            </div>
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
