@@ -1,0 +1,95 @@
+.header{
+    background-color:  #000;
+    position:fixed;
+    width: 100%;
+    
+}
+.navbar{
+    display: flex;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.navbar a{
+    color: white;
+}
+
+.introduction{
+    display: flex;
+    flex-direction:column;
+    background-color:#c6bfbf;
+    height: 10rem;
+    text-align: left;
+}
+
+.introduction h2{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.introduction article{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.introduction a{
+    text-decoration: underline;
+}
+
+ul{ 
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li{
+    width: 25%;
+    height: 50%;
+}
+
+hr{
+    width: 80%;
+    margin-top: 5%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    color: #c6bfbf;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.nav-bottom{
+    margin-top: 5%;
+}
+.nav-bottom nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b4d14;
+}
+
+.navbar-bottom-right a{
+    color: white;
+}
+.navbar-bottom-left a{
+    color: white;
+}
+
+.navbar-bottom-right{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.navbar-bottom-left{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 10%;
+}
